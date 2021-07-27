@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         final TextView textEle = findViewById(R.id.textInp);
 
         final SeekBar FontSize = findViewById(R.id.FontSize);
+        FontSize.setMax(60);
         final Button FontColor = findViewById(R.id.FontColor);
 
 //       seekbar tracking
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onStopTrackingTouch(SeekBar seekBar) {
                 textEle.setText(String.valueOf(progressChangedValue));
+                textEle.setTextSize(progressChangedValue);
             }
         });
 
