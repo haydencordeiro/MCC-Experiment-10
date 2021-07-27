@@ -20,7 +20,6 @@
             android:layout_margin="20dp"
             android:foregroundGravity="center"
             android:gravity="center_horizontal"
-            android:text="text here"
             android:textSize="34sp" />
 
         <Space
@@ -43,7 +42,7 @@
             android:paddingTop="10dp"
             android:paddingRight="20dp"
             android:paddingBottom="20dp"
-            android:text="Font Color" />
+            android:text="Change Font Color" />
 
         <SeekBar
             android:id="@+id/FontSize"
